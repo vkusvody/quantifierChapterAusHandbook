@@ -1,0 +1,65 @@
+\documentclass[12pt,egregdoesnotlikesansseriftitles]{scrartcl}
+\usepackage[dvipsnames]{xcolor}
+%% fonts:
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX,Numbers={OldStyle,Proportional}}
+\setmainfont{XCharter}
+\setsansfont{Alegreya Sans}
+\newfontfamily\charis{CharisSIL-R.ttf}[
+    BoldFont = CharisSIL-B.ttf,
+    ItalicFont = CharisSIL-I.ttf,
+    BoldItalicFont = CharisSIL-BI.ttf]
+%\usepackage{leipzig}
+%\makeglossaries
+\usepackage{amssymb,marvosym}
+
+\usepackage{fancyhdr}
+\usepackage{authblk}
+%% bibliography
+\usepackage[backend=biber,
+ bibstyle=%authoryear,%
+biblatex-sp-unified,
+ citestyle=%authoryear-ibid,%
+sp-authoryear-comp,
+ maxcitenames=3,
+ maxbibnames=99]{biblatex}
+\setlength{\bibitemsep}{0pt}
+\addbibresource{mybib.bib}
+
+\usepackage{graphicx}
+\usepackage[colorlinks,allcolors=Blue]{hyperref}
+\usepackage{gb4e}
+\let\eachwordone=\charis
+\newcommand{\ofy}{/125} %@ the n of languages in the survey (i.e., languages we have data for)
+
+% total number of sources surveyed (incl. those without data) = 138
+
+% total number of sources with data = 124
+
+% I didn't include any instances of "personal communication" within these tallies.
+
+\newcommand{\pn}{Pama-Nyungan}
+
+\title{Quantification in Australian languages}
+\author{Margit Bowler\thanks{\Letter:~\href{mailto:margitbowler@gmail.com}{margitbowler@gmail.com}}\authorcr UCLA \and \vspace{-.5cm}Vanya Kapitonov\thanks{\Letter:~\href{mailto:moving.alpha@gmail.com}{moving.alpha@gmail.com}}\authorcr University of Melbourne \&\ CoEDL}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+In this chapter, we give an overview of quantificational expressions in Australian languages. For the purpose of this chapter, we do not assume a theoretical definition of quantifiers (i.e., \citealt{heimkratzer98}). 
+
+
+
+\subsection{Scope of our survey}
+
+% 49 = number of nPN languages (including isolates)
+% 71 = number of PN languages (including isolates)
+
+Our survey is based on data from 125 Australian languages. This data is drawn from 124 published grammars, grammatical sketches, and dictionaries, as well as personal communications with some language experts. We aim to have a sample that is genetically and areally balanced as possible; we draw on data from 71 Pama-Nyungan languages from x subgroups and 49 non-Pama-Nyungan languages from y families.
+
+
+
+
+\end{document}
