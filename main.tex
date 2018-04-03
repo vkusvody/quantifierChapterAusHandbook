@@ -26,6 +26,7 @@ sp-authoryear-comp,
 \setlength{\bibitemsep}{0pt}
 \addbibresource{mybib.bib}
 
+\usepackage{multicol}
 \usepackage{graphicx}
 \usepackage[colorlinks,allcolors=Blue]{hyperref}
 \usepackage{gb4e}
@@ -48,18 +49,224 @@ sp-authoryear-comp,
 
 \section{Introduction}
 
-In this chapter, we give an overview of quantificational expressions in Australian languages. For the purpose of this chapter, we do not assume a theoretical definition of quantifiers (i.e., \citealt{heimkratzer98}). 
+In this chapter, we give an overview of quantificational expressions in Australian languages. We do not assume a theoretical definition of quantifiers (i.e., \citealt{heimkratzer98}); rather, we are generally concerned with lexical items that refer to quantities. This includes terms referring to vague quantities (translation equivalents to English \textit{many}, \textit{few}, \textit{several}...), properties of sets (\textit{all}, \textit{some}, \textit{no}...), cardinalities (\textit{one}, \textit{two}, \textit{three}...), Wh-words referring to quantities (\textit{how many}, \textit{how much}),
+ indefinite pronouns (\textit{someone}, \textit{something}...), and terms referring to ``quantities'' of times (\textit{always}, \textit{sometimes}...). (We do not discuss number marking in agreement systems, non-pronominal (in)definiteness, or other lexical items that have been theoretically argued to include quantifiers in their semantic denotations, e.g.\ modals.)
 
 
+We show that Australian languages use a variety of morphosyntactic strategies to express quantificational concepts. 
 
-\subsection{Scope of our survey}
+
+\subsection{Our data}
 
 % 49 = number of nPN languages (including isolates)
 % 71 = number of PN languages (including isolates)
 
-Our survey is based on data from 125 Australian languages. This data is drawn from 124 published grammars, grammatical sketches, and dictionaries, as well as personal communications with some language experts. We aim to have a sample that is genetically and areally balanced as possible; we draw on data from 71 Pama-Nyungan languages from x subgroups and 49 non-Pama-Nyungan languages from y families.
+Our survey is based on data from 125 Australian languages. This data is drawn from 124 published grammars, grammatical sketches, and dictionaries, as well as personal communications with some language experts. We aim to have a sample that is genetically and areally balanced as possible; we draw on data from 71 Pama-Nyungan languages from 21 subgroups and 49 non-Pama-Nyungan languages from 18 families, as well as 7 language isolates (sometimes categorized within Pama-Nyungan or non-Pama-Nyungan) and two mixed languages. This sample includes language data from all of the Australian states save Tasmania and the Australian Capital Territory.
+
+When we report that a language ``has'' a quantifier, we mean that the sources that we consulted on the language document this quantifier. We restrain from making strong claims about languages lacking certain quantificational
+expressions, since there may be gaps in the collected data (particularly in older sources; quantifier terms were not frequently collected in older language descriptions). We typically present counts as proportions of the total number of languages in our sample, i.e., for a given quantificational expression, we note how many languages have it out of a total of 125.
+
+Finally, we generally present data as it is given in the original sources. In a small number of  instances, we standardize some interlinear glosses and orthographies.
 
 
+\section{General morphosyntactic properties of  quantifier terms in Australia}
 
+In the following sections, we give an overview of the common morphosyntactic properties of Australian quantificational expressions. We discuss the prevalence of particular quantificational expressions in \S\ref{individquantsection}.
+
+\subsection{Lexical category of quantifier terms}
+
+\cite{bachetal95} broadly distinguish between D(eterminer)-quantifiers and A(dverbial)-quantifiers. D-quantifiers are morphosyntactically associated with nouns, whereas A-quantifiers are (often) associated with verbs. All of the languages in our survey have D-quantifiers; quantificational concepts in these languages are expressed as nouns or as nominal modifiers (affixes, secondary predicates). 
+
+We diagnose a given lexical item as a noun by its ability to host case marking and trigger agreement marking, as in (\ref{allerg})-(\ref{agrmarking1}).\footnote{Australian languages are often described as lacking adjectives, which are generally indistinguishable from nouns with respect to their morphosyntactic properties (\citealt[67-68]{dixon02}).} Nominal quantifiers can typically stand alone as arguments, without any other associated noun, as in (\ref{agrmarking1}). Quantifiers are frequently documented in discontinuous NPs, as in (\ref{discconst}) (cf.\ \citealt[51-52]{louagieverstraete16}, who observe that quantifiers are the most frequent type of modifier to occur discontinuously in Australian languages). 
+
+\begin{exe}
+  \ex\label{allerg} \textsc{Bardi (nPN: Nyulnyulan)} (\citealt[272]{bowern12})
+  \gll Nyalaboo i-ng-arr-ala-n \textbf{boonyja}-nim.\\
+  there 3-{\sc pst}-{\sc aug}-see-{\sc rem.pst} all-{\sc erg}\\
+  \glt `Everyone saw him.'
+  \ex \textsc{Warlpiri (PN: Ngumpin-Yapa)} (\citealt[6]{bowler17})
+  \gll \textbf{Panu}-ngku=lu karlaja yunkaranyi-ki.\\
+  many-{\sc erg}$=${\sc 3subj.pl} dig.{\sc pst} honey.ant-{\sc dat}\\
+  \glt `Many [people] dug for honey ants.' \label{agrmarking1}
+  \ex \textsc{Matngele (nPN: Eastern Daly)} (\citealt[54]{zandvoort99})
+  \gll \textbf{Nembiyu} ardiminek \textbf{binya} \textbf{jawk}.\\
+  one 1{\sc ms.}do.{\sc p} fish black.nailfish\\
+  \glt `I got one black nailfish.'  \label{discconst}
+\end{exe}
+
+
+Many languages in our survey also have A-quantifiers; these languages can express quantificational concepts through verbal modifiers such as adverbs, as in (\ref{aquant1})-(\ref{aquant2}).
+
+
+\begin{exe}
+  \ex \textsc{Mayali (nPN: Gunwinyguan)} (\citealt[221]{evans95})
+  \gll Gunj barri\textbf{-bebbe}-yame-ng.\\
+  kangaroo 3a\textsc{p-distr}-spear-\textsc{pp}\\
+  \glt `They each killed a kangaroo.'\\
+  ([they]$_{key}$ [kangaroo-spear-bebbeh]$_{share}$, i.e.\ one kangaroo-killing per man) \label{aquant1}
+  \ex {\sc Garadjari (PN: Marrngu)} (\citealt[54]{sands89})
+  \gll \textbf{wiridjardu}  nga-njari-djinja.\\
+  completely  eat-{\sc cont}-3{\sc pl.O}     \\   
+  \glt `He ate them all up.' \label{aquant2}
+\end{exe}
+
+As far as we know, no Australian language only uses A-quantifiers; A-quantifiers always  occur in addition to D-quantifiers. Australian languages conform in this respect to \cite{bachetal95}'s generalization that while languages can lack D-quantifiers, no language can lack A-quantifiers.
+%VK: nope, it's the other way round ;P
+
+\subsection{Syntactic patterns of modification}
+
+
+Quantifiers are restricted to modifying absolutive arguments in a small number of languages in our survey. To the best of our knowledge, this property is primarily described of adverbial quantifiers, as in (\ref{quantscope1})-(\ref{quantscope2}). However, \cite{harvey92} describes one nominal quantifier in Gaagudju, {\it geegirr}, that is preferred (but not required) in combination with absolutive arguments (\ref{quantscope3}).
+
+\begin{exe}
+  \ex {\sc Warlpiri (PN: Ngumpin-Yapa)} (\citealt[15]{bowler17})
+  \gll Wati-ngki \textbf{muku} rdilyki-pungu kurlarda-wati.\\
+  man-{\sc erg} all/completely break.{\sc pst} spear-several\\
+  \glt `The man broke all the spears.' \label{quantscope1}
+  \ex \textsc{Mayali (nPN: Gunwinyguan)} (\citealt[233]{evans95})
+  \gll Aban-\textbf{djangged}-bukka-ng.\\
+  1/3\textsc{pl}-bunch-show-\textsc{pp}\\
+  \glt `I showed them \textbf{the whole lot}.' \label{quantscope2}
+    \ex {\sc Gaagudju (nPN: Isolate)} (\citealt[307]{harvey92})
+  \gll ba-'rree-ng-ga=mba \textbf{geegirr} ma'rree-ya=mba \textbf{geegirr}.\\ 
+  2{\sc a-ie-fu}-take={\sc aug} all 1+2{\sc a}-go.{\sc fu=aug} all\\
+  \glt `I will take all of you. We will all go.' \label{quantscope3}
+\end{exe}
+
+We note that this property does not extend to all of the quantifiers within a given language. For instance, Warlpiri has other (D-)quantifiers that are not restricted to modifying absolutive arguments.
+
+
+\section{Semantic findings \label{individquantsection}}
+
+In the following sections, we discuss the prevalence of particular quantificational expressions in the languages in our survey, and review the morphosyntactic strategies that the languages use to encode them.
+
+\subsection{Expressing `many'/`much' \label{manymuchsection}}
+
+The majority of the languages in our survey (109\ofy) have a lexical item that contributes a meaning like English `many,', i.e., that the cardinality of a set exceeds some contextual standard.\footnote{Only one language in our survey, the Gooniyandi mother-in-law language, is explicitly described as lacking a word for `many' (\citealt[636]{mcgregor89}).} We frequently find that languages  have more than one lexical item for `many,' as shown in (\ref{manypl1}). %(\ref{manypl2}). % in opposition to the popularized view that Australian languages have ``simple'' quantifier systems.
+
+\begin{exe}
+ \ex {\sc Yugambeh (PN: Ngumpin-Yapa)} (\citealt{sharpe98}) \label{manypl1}
+  \begin{xlist}
+    \ex \textit{kamaybu} `lots of,' `plenty,' `beyond four'
+    \ex \textit{karal} `more,' `many,' `a lot,' `all,' `plenty'
+    \ex \textit{walal}  `many' 
+  \end{xlist} 
+ % \ex {\sc Bardi (nPN: Nyulnyulan)} (\citealt{bowern12})  \label{manypl2}
+ % \begin{xlist}
+ %   \ex \textit{niimana}  `plenty,' `many'
+ %   \ex \textit{ngarri} `a lot,' `much'
+ %   \ex \textit{alboorr(oo)} `plenty,' `many'
+ % \end{xlist} 
+\end{exe}
+
+We find that Australian languages do not lexically distinguish between quantification over count nouns versus mass nouns, i.e., the distinction between English `many' and `much.' One lexical item can therefore modify both count and mass nouns, as in (\ref{manymuch1}).
+
+\begin{exe}
+\ex \textsc{Biri (PN: Maric}) (\cite[54]{terrill98}) \label{manymuch1}
+\begin{xlist} 
+\ex  \gll  yara    \textbf{dhalgari}    mari        wuna-lba-dhana \\
+    there    many        men-\textsc{abs}    lie-\textsc{cont-pst}-3\textsc{pl}S/A \\
+    `Many men used to live here.'
+\ex \gll \textbf{dhalgari}    gamu        wara-mba-li        gunhami    gamu     yinda-lbaŋa-la  \\   
+    much        water-\textsc{abs}    be\textsc{-caus-pst}    that-\textsc{abs}    water-\textsc{abs}  rise-\textsc{cont-pres}-3\textsc{sg}S/A\\
+    `Much rain made the river rise.'
+\end{xlist}
+\end{exe}
+
+An exception to this is the use of lexical items for `big' to express a quantificational meaning akin to English `much.' (At least) 12/109 languages in our sample permit their lexical item for `big' to refer to `a large quantity of [noun];' this almost always occurs in combination with mass nouns, as in (\ref{bigquant1}).\footnote{\citet[37]{louagieverstraete16} assert that in Gooniyandi, prenominal `big' functions as a quantifier, whereas postnominal `big' has an adjectival meaning:
+    \vspace{-2mm}
+    \begin{exe}
+      \ex {\sc Gooniyandi (nPN: Bunuban)} (\citealt{mcgregor90})
+      \begin{xlist}
+      \begin{multicols}{2}
+        \ex \gll \textbf{nyamani} gamba\\
+        big water \\
+        \glt `a lot of water'% (McGregor 1990: 260) 
+        \ex \gll yoowooloo \textbf{nyamani} \\
+        man big \\
+        \glt `a big man' %(McGregor 1990: 265)
+    \end{multicols}
+      \end{xlist}
+    \end{exe}
+  } Only two of these languages permit `big' to combine with mass nouns under a quantity reading, as in (\ref{bigquant2}).
+
+\begin{exe}
+  \ex \textsc{Garrwa (nPN: Garrwan)} (\citealt{furby77}) \label{bigquant1}
+  \begin{xlist}
+    \ex \gll \textbf{walgu\v{r}a} wadjili \\
+    big wild.honey\\
+    \glt `a lot of wild honey,' `much wild honey' % p. 23
+    \ex \gll \textbf{walgu\v{r}a}-nanji duŋala-nanji\\
+    big-{\sc abl} hill-{\sc abl}\\
+    \glt `from the big hill' % p. 33
+\end{xlist}    
+  \ex \textsc{Kalaw Kawaw Ya (PN: Western Torres Strait)} (\citealt[141]{fo91}) \label{bigquant2}
+  \gll Yan burumiya lumiz +war moebaygan nanga burum        \textbf{koeyma}    mathan.\\
+  in.vain pig.{\sc com} hunt.{\sc pr.pf} other person.{\sc erg} when   pig.{\sc abs}    big.{\sc adv}    kill.{\sc pr.pf}\\
+  \glt `He hunted in vain for a pig while the others bagged many.'
+  
+  % MB: Vanya, the more I look at this example, the more I think it's not a good counterexample. The word "koeyma" is glossed as "big.ADV," suggesting that it's actually an adverbial modifying the verb.
+\end{exe}
+
+\subsection{Expressing `all'/`every'}
+
+Approximately half of the languages in our survey (63\ofy) have at least one strategy for expressing universal quantification over individuals. Like in \S\ref{manymuchsection}, we find that Australian languages do not lexically distinguish between universal quantification over count nouns versus mass nouns. They also do not lexically distinguish between quantification over singular versus plural nouns, i.e.\ the distinction between English `every' and `all.' 
+
+\begin{exe}
+ \ex {\sc Gaagudju (nPN: Isolate)} (\citealt[307]{harvey92})
+  \begin{xlist}
+    \ex \gll djirriingi njinggooduwa yaa-bu=mba \textbf{geegirr}.\\
+    man woman 3{\sc i}-went={\sc aug} all\\
+    \glt `The men and women have all gone.'
+    \ex \gll walaalu $\varnothing$-naana \textbf{geegirr}.\\
+    country {\sc iv}-burn:{\sc pp} all\\
+    \glt `The country is all burnt.'
+  \end{xlist}
+\end{exe}
+
+We describe four primary strategies for expressing universal quantification over individuals, in the order of their frequency. The most common strategy is having a unique lexical item with universal force. 
+
+Two other strategies involve the lexical item for `many.' A small number of languages () have quantifiers that are ambiguous between existential and universal force, as in (\ref{manyallambig1}). A single lexical item can therefore be interpreted as `many' or `all,' depending on the context.
+
+\begin{exe}
+  \ex {\sc Gugada (PN: Thura-Yura)} (\citealt[56,65]{platt72}) \label{manyallambig1}
+  \begin{xlist}
+    \ex \gll badu ŋurbara \textbf{muɻga} {djiɳɖu galaɭa} njina:djinj. \\ 
+    man  strange  many/all  midday         sit.down\\
+    \glt `A lot of strangers sat down at midday'
+    \ex \gll uɭa ambuɖa \textbf{muɻga} ŋur-ŋga  \\
+    boy   small    many/all      camp-{\sc loc}\\
+    \glt        `All the boys are at camp.'%\footnote{\cite{platt72} reports that \textit{muɻga} historically only had the meaning `many,' which developed into `all.'}
+  \end{xlist}
+ \end{exe}
+ 
+ A still smaller number of languages morphologically derive their universal force quantifier from `many.'\footnote{We find evidence for the opposite pattern in one language, Yir Yoront. In this language, reduplicating the monomorphemic lexical item {\it moqo} `all' yields the (existential force) value judgment quantifier `quite a few':
+
+\begin{exe}
+  \ex \textsc{Yir Yoront (PN: Paman)} (\citealt[375]{alpher73})\\
+  \textit{\charis moqmor} `quite a few' $<^*$\textit{\charis moqo} `all'
+\end{exe}}
+ 
+ 
+
+\subsection{Expressing `several'/`few'}
+
+
+\subsection{`How many'/`how much'}
+
+One lexical item can express both `how many' and `how much':
+
+\begin{exe}
+\ex  \textsc{Maranunggu (nPN: Western Daly)} (\citealt[72]{tryon70})
+\begin{xlist}
+\ex \gll \textbf{Antyintara}  awa manarrk    kanatan                 ayi?\\
+    how.many meat kangaroo you.see.\textsc{nonfut} {\sc past.aux}\\
+    `How many kangaroos did you see?'
+
+\ex \gll Menner \textbf{antyintara} kanara                     paty?  \\
+    sugar   how.much you.hand.\textsc{nonfut} have \\
+    `How much sugar have you got?'
+\end{xlist}
+\end{exe}
 
 \end{document}
