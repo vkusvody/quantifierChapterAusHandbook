@@ -9,8 +9,6 @@
     BoldFont = CharisSIL-B.ttf,
     ItalicFont = CharisSIL-I.ttf,
     BoldItalicFont = CharisSIL-BI.ttf]
-%\usepackage{leipzig}
-%\makeglossaries
 \usepackage{amssymb,marvosym}
 
 \usepackage{fancyhdr}
@@ -31,6 +29,10 @@ sp-authoryear-comp,
 \usepackage[colorlinks,allcolors=Blue]{hyperref}
 \usepackage{gb4e}
 \let\eachwordone=\charis
+\usepackage[glosses]{leipzig}
+\input{abbrs}
+\makeglossaries
+
 \newcommand{\ofy}{/125} %@ the n of languages in the survey (i.e., languages we have data for)
 
 % total number of sources surveyed (incl. those without data) = 138
@@ -77,7 +79,7 @@ In the following sections, we give an overview of the common morphosyntactic pro
 
 \cite{bachetal95} broadly distinguish between D(eterminer)-quantifiers and A(dverbial)-quantifiers. D-quantifiers are morphosyntactically associated with nouns, whereas A-quantifiers are (often) associated with verbs. All of the languages in our survey have D-quantifiers; quantificational concepts in these languages are expressed as nouns or as nominal modifiers (affixes, secondary predicates). 
 
-We diagnose a given lexical item as a noun by its ability to host case marking and trigger agreement marking, as in (\ref{allerg})-(\ref{agrmarking1}).\footnote{Australian languages are often described as lacking adjectives, which are generally indistinguishable from nouns with respect to their morphosyntactic properties (\citealt[67-68]{dixon02}).} Nominal quantifiers can typically stand alone as arguments, without any other associated noun, as in (\ref{agrmarking1}). Quantifiers are frequently documented in discontinuous NPs, as in (\ref{discconst}) (cf.\ \citealt[51-52]{louagieverstraete16}, who observe that quantifiers are the most frequent type of modifier to occur discontinuously in Australian languages). 
+We diagnose a given lexical item as a noun by its ability to host case marking and trigger agreement marking, as in (\ref{allerg})--(\ref{agrmarking1}).\footnote{Australian languages are often described as lacking adjectives, which are generally indistinguishable from nouns with respect to their morphosyntactic properties (\citealt[67-68]{dixon02}).}\footnote{The abbreviations used in examples are: || marks audible pause, \printglossary[style=inline,type=\leipzigtype]} Nominal quantifiers can typically stand alone as arguments, without any other associated noun, as in (\ref{agrmarking1}). Quantifiers are frequently documented in discontinuous NPs, as in (\ref{discconst}) (cf.\ \citealt[51-52]{louagieverstraete16}, who observe that quantifiers are the most frequent type of modifier to occur discontinuously in Australian languages). 
 
 \begin{exe}
   \ex\label{allerg} \textsc{Bardi (nPN: Nyulnyulan)} (\citealt[272]{bowern12})
@@ -95,7 +97,7 @@ We diagnose a given lexical item as a noun by its ability to host case marking a
 \end{exe}
 
 
-Many languages in our survey also have A-quantifiers; these languages can express quantificational concepts through verbal modifiers such as adverbs, as in (\ref{aquant1})-(\ref{aquant2}).
+Many languages in our survey also have A-quantifiers; these languages can express quantificational concepts through verbal modifiers such as adverbs, as in (\ref{aquant1})--(\ref{aquant2}).
 
 
 \begin{exe}
@@ -116,7 +118,7 @@ As far as we know, no Australian language only uses A-quantifiers; A-quantifiers
 \subsection{Syntactic patterns of modification}
 
 
-Quantifiers are restricted to modifying absolutive arguments in a small number of languages in our survey. To the best of our knowledge, this property is primarily described of adverbial quantifiers, as in (\ref{quantscope1})-(\ref{quantscope2}). However, \cite{harvey92} describes one nominal quantifier in Gaagudju, {\it geegirr}, that is preferred (but not required) in combination with absolutive arguments (\ref{quantscope3}).
+Quantifiers are restricted to modifying absolutive arguments in a small number of languages in our survey. To the best of our knowledge, this property is primarily described of adverbial quantifiers, as in (\ref{quantscope1})--(\ref{quantscope2}). However, \cite{harvey92} describes one nominal quantifier in Gaagudju, {\it geegirr}, that is preferred (but not required) in combination with absolutive arguments (\ref{quantscope3}).
 
 \begin{exe}
   \ex {\sc Warlpiri (PN: Ngumpin-Yapa)} (\citealt[15]{bowler17})
@@ -260,7 +262,7 @@ Furthermore,  Australian universal quantifiers do not lexically distinguish betw
 Australian universal quantifiers also do not lexically distinguish between quantification over singular versus plural nouns, i.e.\ the distinction between English `every' and `all.' This falls out in part from the fact that person and number agreement marking and plural nominal marking tend to be optional in some contexts in Australian languages (). As a result, it can be difficult to diagnose whether a given quantifier is modifying a singular or a  plural noun. %We show a (lack of) such a contrast in (\ref{}). 
 
 
-We describe four primary strategies for expressing universal quantification over individuals, in the order of their frequency. The most common strategy is having a unique lexical item with universal force;  x/y languages in our sample use this strategy. We give examples of quantifiers with strictly universal force in (\ref{univex3})-(\ref{univex4}).
+We describe four primary strategies for expressing universal quantification over individuals, in the order of their frequency. The most common strategy is having a unique lexical item with universal force;  x/y languages in our sample use this strategy. We give examples of quantifiers with strictly universal force in (\ref{univex3})--(\ref{univex4}).
 
 \begin{exe}
   \ex {\sc Arrernte (PN: Arandic)} (\citealt[132]{wilkins89})
@@ -313,6 +315,69 @@ Two other strategies for expressing universal quantification  involve the lexica
 
 \subsection{Expressing `several'/`few'}
 
+\subsection{Indefinite pronouns}
+\label{sec:indefs}
+Lexical items for expression of indefinites (such as \textit{someone}, \textit{nothing}, \textit{anywhere}, \textit{whoever} etc.) and ignoratives (\textit{whatchamacallit}) are reported for 43 languages in the sample. In the vast majority of cases the indefinite pronouns are based on the interrogatives. Such are 36 languages, which further fall into two groups:
+\begin{enumerate}[(i)]
+\item those where indefinite pronouns are identical in form to \textit{wh}-words (25 languages), i.e.\ one form is ambiguous between interrogative and indefinite readings (\ref{ex:blnidf})
+\item those where there is a morphological operation (optional or obligatory) deriving indefinites from \textit{wh}-words (at least 12 languages, see below)
+\end{enumerate}
+%@ check if worora has morphology and subtract 1 from the OTHER group counter :)
+\begin{exe}
+  % \ex\label{ex:gniidf} \textsc{Gooniyandi (nPN: Bunaban)} (\citealt[147]{mcgregor90})\\
+  % \gll \textbf{ngoonyi}-yidda wardginggiri.\\
+  % which-\All{} you.go\\
+  % \glt (1)  `Where are you going?' \\
+  % (2) `You're going somewhere.'
+  \ex\label{ex:blnidf} \textsc{Bilinarra (PN: Ngumpin-Yapa)} (\citealt[37]{nordlinger90})\\
+  \gll \textbf{ngantu}-rlu-nga pa-ni.\\
+  who-\Erg-\Dub{} hit-\Pst{}\\
+  \glt (1) `Who hit him?'\\
+  (2) `Maybe someone hit him.'
+\end{exe}
+
+Oftentimes the identical forms will have different distributional tendencies, e.g.\ when used as interrogatives these pronouns will appear clause-initially, but enjoy more freedom of placement when used as indefinites \ref{ex:bkwidf}.
+\begin{exe}
+  \ex\label{ex:bkwidf} \textsc{Bininj Kun-wok (nPN: Gunwinyguan)}\hfill \pgcitep{bgw}{280--1}\\
+  \begin{xlist}
+    \ex\gll \textbf{Njale} bene-boken kabene-h-na-n?\\
+    what \Third.\Ua-two \Third.\Ua-\Imm-see-\Np\\
+    `What are they two looking at?' % ex 7.79a
+    \ex\gll bu \textbf{njale} ngarri-ma-ng\ldots\\
+    \Sub{} what \First.\Aug-get-\Np\\
+    `and if we get something\ldots' % ex 7.90
+  \end{xlist}
+\end{exe}
+
+In the languages that can or must differentiate the interrogatives and indefinites morphologically, the latter are typically derived via an indefinite, ignorative, or dubitative affix/particle (\ref{ex:idftime}), or via reduplication (\ref{ex:idfrdp}).\footnote{Interestingly, Bardi (nPN: Nyulnyulan) can express the indefinite pronoun `something' using a compound of `who' and `nose': \textit{angginimal} `something' [lit.\ \textit{anggaba} `who' + \textit{niimal} `nose'] (\citealt[321]{bowern12}).}
+\begin{exe}
+  \ex\label{ex:idftime} \textsc{Djambarrpuyŋu (PN: Yolŋu)}\hfill \pgcitep{wilkinson91}{393}\\
+  \gll %nhämunha/nhämuny - ‘How many’ (stem)
+  Ga     djäma    nhe    dhu    ga-a        yindi    nhe    dhu    ga     djäma    \textbf{ŋula}        \textbf{nhämunha}    dhuŋgarra    ŋurraka$+$m\\
+  and    work    \Ssg{}    \Fut{}    \Impf-\First{}    big   \Ssg{}    \Fut{}    \Impf-\First{}   work    \Indf2    how.many    year        throw$+$\First\\
+  \glt `And you are working, you are working (on something) big, lasting for an indefinite amount of time.'
+  \ex\label{ex:idfrdp} \textsc{Arabana-Wangkangurru (PN: Karnic)}\hfill \pgcitep{hercus94}{129}\\
+  \gll \textbf{Thiyara}\char`~\textbf{thiyara} yuka-ka \textbf{minha}\char`~\textbf{minha} mapi-rnda, partyarna ngawi-lhiku waya-rnda.\\
+  \textsc{rdp}\char`~which.way go-\Pst{} \textsc{rdp}\char`~what do-\Prs{} all hear-\Purp{} wish-\Prs\\
+  \glt `Wherever he went and whatever he did, I want to hear it all.' %(p.\ 129)
+\end{exe}
+  % \ex {\sc Ngiyambaa (PN: Central NSW)} (\citealt[271]{donaldson80}) \\
+  % \gll \textbf{ŋa:ndi-ŋa:ndi-ga:} manabi-nji.\\
+  % who\char`~who+{\sc abs}-{\sc ignor} hunt-{\sc past}\\
+  % \glt `Whoever went hunting, I don't know.' 
+  % \ex {\sc Tiwi (Isolate)} (\citealt[57]{osborne74})
+  % \begin{xlist}
+  %   \ex \charis{\textbf{kuwani} jilkəɹimi?}\\
+  %   `Who did it?'
+  %   \ex \textbf{aramu-kuwarni}.\\
+  %   `Someone or other.'
+  % \end{xlist}
+
+%@  % \ex\label{ex:mpwhi} \textsc{Murrinh-Patha (nPN: Southern Daly)} (John Mansfield, p.c.)\\
+  % \gll \textbf{Mere} \textbf{nangkal} nge-ma-nham.\\
+  % \textsc{neg}  who      pierce.\textsc{rr.1sg.irr-appl}-fear\\
+  % \glt `I'm not afraid of anyone.' % (2013-01-18_pb_01)
+  % MB: I'm commenting this one out for now just because of scope wackiness, it could easily be argued this isn't a ``derived'' indefinite and is just clausal negation scoping over the existential, I think?
 
 \subsection{`How many'/`how much'}
 
@@ -331,4 +396,5 @@ One lexical item can express both `how many' and `how much':
 \end{xlist}
 \end{exe}
 
+\printbibliography
 \end{document}
