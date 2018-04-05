@@ -1,4 +1,4 @@
-\documentclass[12pt,egregdoesnotlikesansseriftitles]{scrartcl}
+\documentclass[12pt]{scrartcl}
 \usepackage[dvipsnames]{xcolor}
 %% fonts:
 \usepackage{fontspec}
@@ -10,7 +10,7 @@
     ItalicFont = CharisSIL-I.ttf,
     BoldItalicFont = CharisSIL-BI.ttf]
 \usepackage{amssymb,marvosym}
-
+\usepackage{enumerate}
 \usepackage{fancyhdr}
 \usepackage{authblk}
 %% bibliography
@@ -23,15 +23,17 @@ sp-authoryear-comp,
  maxbibnames=99]{biblatex}
 \setlength{\bibitemsep}{0pt}
 \addbibresource{mybib.bib}
+\usepackage{leipzig}
+\makeglossaries
+\input{abbrs}
 
 \usepackage{multicol}
 \usepackage{graphicx}
-\usepackage[colorlinks,allcolors=Blue]{hyperref}
 \usepackage{gb4e}
 \let\eachwordone=\charis
-\usepackage[glosses]{leipzig}
-\input{abbrs}
-\makeglossaries
+\usepackage[colorlinks,allcolors=Blue]{hyperref}
+% \usepackage[nomain]{glossaries}
+% \usepackage{glossary-inline}
 
 \newcommand{\ofy}{/125} %@ the n of languages in the survey (i.e., languages we have data for)
 
