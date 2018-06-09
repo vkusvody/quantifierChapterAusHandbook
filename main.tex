@@ -32,6 +32,7 @@ sp-authoryear-comp,
 \usepackage{graphicx}
 \usepackage{gb4e}
 \let\eachwordone=\charis
+\usepackage[multiple]{footmisc}
 \usepackage[colorlinks,allcolors=Blue]{hyperref}
 % \usepackage[nomain]{glossaries}
 % \usepackage{glossary-inline}
@@ -147,81 +148,83 @@ In the following sections, we discuss the prevalence of particular quantificatio
 Nearly all of the languages in our survey (109\ofy) have a lexical item that contributes a meaning like English \textit{many}, i.e., that the cardinality of a set exceeds some contextual standard.\footnote{Only one language in our survey, the Gooniyandi mother-in-law language, is explicitly described as lacking a word for `many' (\citealt[636]{mcgregor89}).} We frequently find that languages  have more than one lexical item used to express `many,' as demonstrated in (\ref{manypl1}). %(\ref{manypl2}). % in opposition to the popularized view that Australian languages have ``simple'' quantifier systems.
 
 \begin{exe}
- \ex  \textsc{Yugambeh (PN: Ngumpin-Yapa)} \hfill(\citealt{sharpe98}) \label{manypl1}
+  \ex  \textsc{Yugambeh (PN: Ngumpin-Yapa)} \hfill(\citealt{sharpe98}) \label{manypl1}
   \begin{xlist}
     \ex \textit{kamaybu} `lots of,' `plenty,' `beyond four'
     \ex \textit{karal} `more,' `many,' `a lot,' `all,' `plenty'
     \ex \textit{walal}  `many' 
   \end{xlist} 
- % \ex  \textsc{Bardi (nPN: Nyulnyulan)} (\citealt{bowern12})  \label{manypl2}
- % \begin{xlist}
- %   \ex \textit{niimana}  `plenty,' `many'
- %   \ex \textit{ngarri} `a lot,' `much'
- %   \ex \textit{alboorr(oo)} `plenty,' `many'
- % \end{xlist} 
+  % \ex  \textsc{Bardi (nPN: Nyulnyulan)} (\citealt{bowern12})  \label{manypl2}
+  % \begin{xlist}
+  %   \ex \textit{niimana}  `plenty,' `many'
+  %   \ex \textit{ngarri} `a lot,' `much'
+  %   \ex \textit{alboorr(oo)} `plenty,' `many'
+  % \end{xlist} 
 \end{exe}
 
 Australian languages do not lexically distinguish between quantification over count nouns versus mass nouns, i.e., the distinction between English \textit{many} and \textit{much}. One lexical item can therefore modify both count and mass nouns, as in (\ref{manymuch1}).
 
 \begin{exe}
-\ex \textsc{Biri (PN: Maric}) \hfill(\cite[54]{terrill98}) \label{manymuch1}
-\begin{xlist} 
-\ex  \gll  yara    \textbf{dhalgari}    mari        wuna-lba-dhana \\
-    there    many        men-\textsc{abs}    lie-\textsc{cont-pst}-3\textsc{pl}S/A \\
-    `Many men used to live here.'
-\ex \gll \textbf{dhalgari}    gamu        wara-mba-li        gunhami    gamu     yinda-lbaŋa-la  \\   
-    much        water-\textsc{abs}    be\textsc{-caus-pst}    that-\textsc{abs}    water-\textsc{abs}  rise-\textsc{cont-pres}-3\textsc{sg}S/A\\
-    `Much rain made the river rise.'
-\end{xlist}
+  \ex \textsc{Biri (PN: Maric}) \hfill(\cite[54]{terrill98}) \label{manymuch1}
+  \begin{xlist} 
+    \ex \gll  yara    \textbf{dhalgari} mari  wuna-lba-dhana \\
+    there  many    men-\Abs{} lie-\Cont-\Pst-\Tpl.\Sarg/\Aarg\\
+    \glt `Many men used to live here.'
+    \ex \gll \textbf{dhalgari} gamu wara-mba-li gunhami gamu yinda-lbaŋa-la\\
+    much  water-\Abs{} be-\Caus-\Pst{} that-\Abs{}  water-\Abs{}  rise-\Cont-\Prs-\Tsg.\Sarg/Aarg\\
+    \glt `Much rain made the river rise.'
+  \end{xlist}
 \end{exe}
 
 An exception to this is the use of lexical items for `big' to express a quantity meaning akin to English \textit{much}. (At least) 12/109 languages in our sample permit their lexical item for `big' to refer to `a large quantity of [noun].' This almost always occurs in combination with mass nouns, as in (\ref{bigquant1}).\footnote{\citet[37]{louagieverstraete16} assert that in Gooniyandi, prenominal `big' functions as a quantifier, whereas postnominal `big' has an adjectival meaning:
-    \vspace{-2mm}
+    \vspace{-2mm} %@ Vanya, try cgloss!
     \begin{exe}
       \ex  \textsc{Gooniyandi (nPN: Bunuban)} \hfill(\citealt{mcgregor90})
       \begin{xlist}
-      \begin{multicols}{2}
-        \ex \gll \textbf{nyamani} gamba\\
-        big water \\
-        \glt `a lot of water'% (McGregor 1990: 260) 
-        \ex \gll yoowooloo \textbf{nyamani} \\
-        man big \\
-        \glt `a big man' %(McGregor 1990: 265)
-    \end{multicols}
+        \begin{multicols}{2}
+          \ex \gll \textbf{nyamani} gamba\\
+          big water \\
+          \glt `a lot of water'% (McGregor 1990: 260) 
+          \ex \gll yoowooloo \textbf{nyamani} \\
+          man big \\
+          \glt `a big man' %(McGregor 1990: 265)
+        \end{multicols}
       \end{xlist}
     \end{exe}
-  } (We suspect that the actual number of languages that permit a quantity reading of `big' is significantly higher than this; most language descriptions do not include `big' in their discussion of quantifier systems, as its primary use is not quantificational.) Only one of these 12 languages (Kalaw Kawaw Ya) is described as permitting `big' to combine with count nouns under a quantity reading, as in (\ref{bigquant2}).\footnote{
-  In Miriwoong (nPN: Jarrakan), the lexical item \textit{ngerreguwung} `big' can undergo partial reduplication to result in \textit{ngerregungerreguwung} `a very large number'/`very many' (\citealt[43]{kofod78}).
-  }$^{,}$\footnote{In one language, Murrinh-Patha, `big' can be used to express universal quantificational force. It is capable of both mass and wholistic quantificational readings.
+} 
+(We suspect that the actual number of languages that permit a quantity reading of `big' is significantly higher than this; most language descriptions do not include `big' in their discussion of quantifier systems, as its primary use is not quantificational.) Only one of these 12 languages (Kalaw Kawaw Ya) is described as permitting `big' to combine with count nouns under a quantity reading, as in (\ref{bigquant2}).\footnote{In Miriwoong (nPN: Jarrakan), the lexical item \textit{ngerreguwung} `big' can undergo partial reduplication to result in \textit{ngerregungerreguwung} `a very large number'/`very many' (\citealt[43]{kofod78}).}\footnote{In one language, Murrinh-Patha, `big' can be used to express universal quantificational force. It is capable of both mass and wholistic quantificational readings. Notice the use of the root \textit{ngala} in both the qualifier and quantifier functions:
   %,i.e.\ if the head noun denotes either a mass substance or an entity with understood internal structure (whether collective (herd) or not ( the whole house))
   \vspace{-2mm}
-\begin{exe}
-\ex  \textsc{Murrinh-Patha (nPN: Southern Daly)}\hfill (John Mansfield, p.c.)
-\gll Me-Ngala mup-ka \textbf{ngala} kanam-ka-wat-nime.\\
-foot-big people-\textsc{top} big be.3\textsc{sg.nfut-pauc.subj}-frequent-\textsc{pauc.m}\\
-`The whole Big Foot mob come here regularly.'
-\end{exe}
+  \begin{exe}
+    \ex \textsc{Murrinh-Patha (nPN: Southern Daly)}\hfill (John Mansfield, p.c.)
+    \gll Me-Ngala mup-ka \textbf{ngala} kanam-ka-wat-nime.\\
+    foot-big people-\Top{} big be.\Tsg.\Nfut-\Pauc.\Sarg-frequent-\Pauc.\M\\
+    \glt `The whole Big Foot mob come here regularly.'
+  \end{exe}
 }
 
 \begin{exe}
   \ex \textsc{Garrwa (nPN: Garrwan)} \hfill(\citealt{furby77}) \label{bigquant1}
   \begin{xlist}
-    \ex \gll \textbf{walgu\v{r}a} wadjili \\
+    \ex \gll \textbf{walgu\v{r}a} wadjili\\
     big wild.honey\\
     \glt `a lot of wild honey,' `much wild honey' % p. 23
     \ex \gll \textbf{walgu\v{r}a}-nanji duŋala-nanji\\
-    big-\textsc{abl} hill-\textsc{abl}\\
+    big-\Abl{} hill-\Abl\\
     \glt `from the big hill' % p. 33
-\end{xlist}    
+  \end{xlist}
   \ex \textsc{Kalaw Kawaw Ya (PN: Western Torres Strait)} \hfill(\citealt[141]{fo91}) \label{bigquant2}
   \gll Yan burumiya lumiz +war moebaygan nanga burum        \textbf{koeyma}    mathan.\\
   in.vain pig.\textsc{com} hunt.\textsc{pr.pf} other person.\textsc{erg} when   pig.\textsc{abs}    big.\textsc{adv}    kill.\textsc{pr.pf}\\
   \glt `He hunted in vain for a pig while the others bagged many.'
-  
   % MB: Vanya, the more I look at this example, the more I think it's not a good counterexample. The word "koeyma" is glossed as "big.ADV," suggesting that it's actually an adverbial modifying the verb.
+  \ex \textsc{Garrwa (nPN: Garrwan)}\hfill \pgcitep{mushin12}{80}\\
+  \gll Baki kuyu nurr=i waw\char`~, daru-muku yalu-nya kula-ni, wawarra, \textbf{balalanyi}-\textbf{muku} nayi-muku.\\
+  and bring we.\Excl.\Nom=\Pst{} {\ } uninitiated.boys-\Pl{} they-\Acc{} south-\Abl{} child big-\Pl{} this-\Pl\\
+  \glt `We also brought young boys from the south, child(ren), \textbf{this big mob}.' %(21.3.00.1.DmcD)
 \end{exe}
 
-We note  that a small number of languages in our survey have lexical items that can be interpreted as either `many'/`much' or `all'/`every', i.e.\ they are compatible with both existential and universal quantificational force. We discuss this data further in \S\ref{alleverysection}.
+We note  that a small number of languages in our survey have lexical items that can be interpreted as either `many'/`much' or `all'/`every', i.e.\ they are compatible with both existential and universal quantificational force. We discuss these data further in \S\ref{alleverysection}.
 
 \subsection{Expressing `all'/`every' \label{alleverysection}}
 
