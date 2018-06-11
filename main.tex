@@ -31,7 +31,7 @@ sp-authoryear-comp,
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{gb4e}
-\usepackage{cgloss}
+%\usepackage{cgloss}
 \let\eachwordone=\charis
 \usepackage[multiple]{footmisc}
 \usepackage[colorlinks,allcolors=Blue]{hyperref}
@@ -133,7 +133,7 @@ A small number of quantifiers in our sample ($ n < 10$) are restricted to modify
   \glt `I showed them the whole lot.' \label{quantscope2}
   \ex\textsc{Gaagudju (nPN: isolate)} \hfill(\citealt[307]{harvey92})
   \gll ba-'rree-ng-ga=mba \textbf{geegirr} ma'rree-ya=mba \textbf{geegirr}.\\ 
-  \Second.\Abs-\Furst.\Erg-\Fut-take=\Aug{} all \First.\Incl.\Abs-go.\Fut=\Aug{} all\\
+  \Second.\Abs-\First.\Erg-\Fut-take=\Aug{} all \First.\Incl.\Abs-go.\Fut=\Aug{} all\\
   \glt `I will take all of you. We will all go.' \label{quantscope3}
 \end{exe}
 
@@ -178,7 +178,7 @@ Australian languages do not lexically distinguish between quantification over co
 \end{exe}
 
 An exception to this is the use of lexical items for `big' to express a quantity meaning akin to English \textit{much}. (At least) 12/109 languages in our sample permit their lexical item for `big' to refer to `a large quantity of [noun].' This almost always occurs in combination with mass nouns, as in (\ref{bigquant1}).\footnote{\citet[37]{louagieverstraete16} assert that in Gooniyandi, prenominal `big' functions as a quantifier, whereas postnominal `big' has an adjectival meaning:
-    \vspace{-2mm} %@ Vanya, try cgloss!
+    \vspace{-2mm} %@ Vanya, try cgloss! --- UPD: I think it requires \\'s at the end of every top line as well, I'mm too lazy to work on that now, and that's not really important anyway, unless we'll want this as a pre-print upload later on
     \begin{exe}
       \ex  \textsc{Gooniyandi (nPN: Bunuban)} \hfill(\citealt{mcgregor90})
       \begin{xlist}
@@ -805,7 +805,7 @@ A small number of languages in our sample express `how many' using a Wh-word tha
 \end{exe}
 
 In line with the weak distinction between mass and count nouns noted in \S\ref{manymuchsection} and \S\ref{alleverysection}, we find that in a number of languages the same expression for `how many' can be used with both count nouns (to express `how many')  (\ref{ex:hmcnt}) and  mass nouns (to express `how much')  (\ref{ex:hmmass}). We have not found any descriptions of quantity Wh-terms that select specifically for count or mass nouns. 
-%  One lexical item can express both `how many' and `how much': %@ do smth about the meat-classifier so that it doesn't look like mass noun "roo meat"
+%  One lexical item can express both `how many' and `how much': % do smth about the meat-classifier so that it doesn't look like mass noun "roo meat"
 \begin{exe}
   \ex \textsc{Yanyuwa (PN: Ngarla)} \hfill (\citealt[27]{kc96})
   \begin{xlist}
@@ -867,7 +867,6 @@ In Wubuy, bare common nouns scope under or above negation depending on the prese
 \end{exe}
 
 Some data from Kunbarlang  suggest that word  order may also change the scopal properties of an existential. Example (\ref{ex:wlgscope}) shows that when the NP with the numeral `one' follows the negative particle, it can only scope below negation (\ref{ex:kudjinar}), but when it precedes the negative particle, there is a scope ambiguity (\ref{ex:kudjiamb}).
-%@ TODO IK maybe i shd make \Nm print "det", rather than "nm"
 \begin{exe}
   \ex\label{ex:wlgscope} \textsc{Kunbarlang (nPN: Gunwinyguan)}\hfill (I. Kapitonov, field notes) %sy_160701
   \begin{xlist}
