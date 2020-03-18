@@ -1,0 +1,36 @@
+** last things for final submission
+
+* TODO [M] Barry's second email (Aug 10), point (1) about A- and D-qfrs and Bach et al.'s generalization. Can you please rephrase our sentence along the lines of your response to Barry?
+* TODO I've added cross-refs to other chapters into text, but not into bib. Need to?
+* DONE definiteness and adj/noun refs
+  CLOSED: [2019-10-06 Sun 13:05]
+* TODO [E] we're inconsistent in putting punctuation within vs. outside of inverted commas
+
+* TODO [M] I ignored Claire's comment about PPny *nha on page 17, ex. (47) --- doesn't seem to bear on our analysis of this example?
+
+* TODO [M] I made some minor edits to the `to count' section (p. 23), but maybe you could have a squiz to see if you agree.
+
+* TODO [M] Is there any reason for the un-chronological and un-alphabetical order of references in our very first para?
+
+** This is from the European Australianists Workshop
+-What criteria do we use to distinguish between mass and count nouns in Australian languages, as in our discussion of "many"/"much"? (I said: seeing whether they trigger singular or plural agreement, and reliance on English glosses.) JC Verstraete and Bill McGregor are not convinced that mass/count is a meaningful distinction in Australian languages. Maybe there would be another chapter in the handbook that we could reference about this.
+IK: I've edited thusly; I don't think there is any available reference on this, and I feel that this needs to be said aloud; but it's a little funny, too -- see what you think. "Australian languages typically do not lexically distinguish between quantification over count nouns versus mass nouns, i.e., the distinction between English many and much. In fact, to the best of our knowledge, there is no published account of the mass/count distinction for nouns in any Australian language, and several of our colleagues in personal communication have expressed doubts about relevance of this category for Australian languages altogether. Admittedly, this is as instructive as it is anecdotical. For want of a study of the phenomenon, in this section we talk about countability of the nominal lexemes as if they were English ones. At the same time, notice that the idea about absence if the countability distinction in Australian languages is corroborated by the fact that in all surveyed languages, one lexical item can modify both (alleged) count and mass nouns, as in (10)."
+
+-Eva Schultze-Berndt suggested discussion of universal quantifiers that mean "together" or "in a group." This is something we'd touched on before with Nick Evans's Mayali data, and I remember also talking about how some quantifiers also have spatial meanings (like how "each" = "separately").
+IK: I'd skip this, to be honest.
+
+-Dana Louagie says there's Arrernte data on multiple quantifiers in a single NP in Wilkins's PhD dissertation.
+IK: I've added one example and the following comment: "Wilkins (1989: §3.5.4) reports that in Arrernte, it is possible to combine two quanti- fiers within one NP (70), and possibly even with scope effects. However, the data are insufficient to make any more specific conclusions." It's actually nice to have the example, even if a rather uninformative one, because all the rest in our section are Gunwinyguan.
+
+-I can't remember who said this, but apparently Bardi also uses "one" to mean "a little," c.f. our discussion in 3.3.2 that only Mangarayi uses "one" to mean "several." The reference is Metcalfe (not sure what year).
+IK: I cannot obtain Metcalfe, and Claire does not describe this. She mentions the following polysemy of arinyj(i) `one': `same' (``we come from one, i.e. the same, place'', and when reduplicated, `distr' (``gave us one each'').
+
+-Bill McGregor had an interesting take on the "other" data in (37)-(39), which was that he was never convinced that these lexical items WEREN'T just partitive "some." This made me think... how WOULD you diagnose whether an item was "other" and not partitive "some"? In English, I think "other" sentences are weird when they're not in a larger discourse ("Other boys ran" is weird out of the blue). However, the data in (37)-(39) is reported as felicitous, and I don't recall any discussion of discourse requirements. Which makes the relevant lexical items look more like English "some." Anyway, Bill is working more on this and is really interested in it.
+
+-Bill and Eva also had an interesting point that I think we should include, which is that words for "other"(/"some") often also mean "one," as in the Nyangumarta example in (39). Any thoughts on why this would be? I feel like it kind of makes intuitive sense.
+
+IK: Now, Russian has these words /drugoj/ and /inoj/, which both mean `(an)other'. The former is more similar to the English `other', it does type and token difference, and can occur in tandem /odni/ `one.PL' ~ /drugie/ `other.PL' like the English /some/ ~ others. The word /inoj/, however, behaves more like a partitive `some' with rather relaxed conditions on the context. (Did I ever tell you how much Russian is like an Average Australian language?)
+If the Australian partitive `some' < `other' ARE really JUST partitive `some', i.e. have in their meaning the some-but-not-all combined with some idea of contrast with the complement set, then it falls out that they can mean any of `one', `some', or `other'. It's pretty crude, of course, but we can't hope to give an account of this in the chapter. So I'm adding the following:
+"We note that these observations may be in line with von Fintel and Matthewson's (2008) suggestion that some languages have the kind of presuppositions which do not impose felicity conditions on the context / common ground."
+
+IK: Wilkins (1989:$3.8.2) gives an example of arrpenhe `other' used as `someone' ("someone should get the police"). It is perhaps modalized, but it does not read as contrastive or anything, I don't think. $5.3.3.3 also has an ex like that (and page 297 of pdf has an ex where this word is used in an actual/eventive context to refer to one and then another guy talking). (But then it's also in Arrernte that `some' is formed from `other' by some weird suffix (group formation?)). Oh, and "arrpanenhe 'each, every, many different ones'." (p. 381 of pdf)
